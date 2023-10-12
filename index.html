@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <button type="button" onclick="closePopup()" class="close-button" style="display: none;"><span
+        class="close">&times;</span></button>
+    <h2>Smart Phone</h2>
+    <div class="product">
+        <div class="card">
+            <div class="image-container">
+                <img src="mobile.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Vivo Y21</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(1)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="mobile1.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Oppo A17</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(2)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="mobile2.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>OnePlus</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(3)">View Details</button>
+            </div>
+        </div>
+    </div>
+    <h2>Laptop</h2>
+    <div class="product">
+        <div class="card">
+            <div class="image-container">
+                <img src="lap1.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Dell Latitude 3420 HD </b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(4)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="lap2.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>HP Pavilion</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(5)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="lap3.jpg" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Asus</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(6)">View Details</button>
+            </div>
+        </div>
+    </div>
+    <h2>Bluetooth Speaker</h2>
+    <div class="product">
+        <div class="card">
+            <div class="image-container">
+                <img src="bs1.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>NKL Multimedia 188 High Bass Bluetooth Speaker</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(7)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="bs2.jpg" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Sony Wireless Bluetooth Speakers</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(8)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="bs3.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>F&D F6000X Powerful 135W Speaker</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(9)">View Details</button>
+            </div>
+        </div>
+    </div>
+    <h2>Digital Watch</h2>
+    <div class="product">
+        <div class="card">
+            <div class="image-container">
+                <img src="dw1.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Pop Vivo & Mi 4G Calling Smart Mobile watch</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(10)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="dw2.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Mirza Dz09 New Smart Watch</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(11)">View Details</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="dw3.png" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3><b>Raysx 4G Android Smart Watch</b></h3>
+            </div>
+            <div id="detail">
+                <button class="vd" type="button" style="cursor: pointer;" onclick="openPopup(12)">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <div class="image-container">
+                <img id="product-image" src="" alt="Avatar">
+            </div>
+            <div class="container">
+                <h3 id="product-name"><b></b></h3>
+                <h3 id="product-price"><b></b></h3>
+                <p id="product-description"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

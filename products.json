@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "image": "mobile.png",
+        "name": "Vivo Y21",
+        "price": 76890,
+        "description": "Vivo Y21 is based on its Helio P35 chipset – an octa-core processor with a maximum frequency of 2.3GHz."
+    },
+    {
+        "id": 2,
+        "image": "mobile1.png",
+        "name": "Oppo A17",
+        "price": 87456,
+        "description": "Oppo A17 is powered by an octa-core MediaTek Helio P35 (MT6765) processor. It comes with 4GB of RAM."
+    },
+    {
+        "id": 3,
+        "image": "mobile2.png",
+        "name": "OnePlus",
+        "price": 75430,
+        "description": "Oneplus devices are great value for money device with one of the fastest charging and near stock os"
+    },
+    {
+        "id": 4,
+        "image": "lap1.png",
+        "name": "Dell Latitude 3420 HD",
+        "price": 80000,
+        "description": "Dell Latitude 3420 Intel I5-1135G7 14 Inches Hd Business Laptop (8Gb 512Gb Nvme Iris Xe Graphics 3 Year Adp Windows 10 Pro, 1.52Kg)"
+    },
+    {
+        "id": 5,
+        "image":"lap2.png",
+        "name": "HP Pavilion",
+        "price": 70000,
+        "description": "AMD Ryzen™ 5-5625U Processor Windows 11 Home 35.6 cm (14) diagonal FHD display Brightview with AMD Radeon™ Graphics 8 GB RAM 512 GB SSD Hard drive"
+    },
+    {
+        "id": 6,
+        "image": "lap3.jpg",
+        "name": "Asus",
+        "price": 90000,
+        "description": "The world's best motherboards and high-quality personal computers, monitors, graphics cards, routers and other technology solutions."
+    },
+    {
+        "id": 7,
+        "image": "bs1.png",
+        "name": "NKL Multimedia 188 High Bass Bluetooth Speaker",
+        "price": 81000,
+        "description": "NKL Splashproof 188 High Bass Bluetooth Speaker Sound Quality TF Card/AUX-IN Support 20 W Bluetooth Party Speaker "
+    },
+    {
+        "id": 8,
+        "image": "bs2.jpg",
+        "name": "Sony Wireless Bluetooth Speakers",
+        "price": 70000,
+        "description": "Sony Wireless Extra Bass Portable Compact Bluetooth Speaker with 16 Hours Battery Life, Type-C, IP67 Waterproof, Dustproof,Speaker with Mic, Loud Audio ."
+    },
+    {
+        "id": 9,
+        "image": "bs3.png",
+        "name": "F&D F6000X Powerful 135W Speaker",
+        "price": 72500,
+        "description": "Powerful 135W output to provide the best Home Theatre experience. Multiple F&D T-60X Pro Peak Power 280 W Bluetooth Tower Speaker"
+    },
+    {
+        "id": 10,
+        "image": "dw1.png",
+        "name": "Pop Vivo & Mi 4G Calling Smart Mobile watch",
+        "price": 75000,
+        "description": "Pop Vivo & Mi 4G Calling Smart Mobile watch Compatible With Android & Ios Smart Watch Strap  (Black)"
+    },
+    {
+        "id": 11,
+        "image": "dw2.png",
+        "name": "Mirza Dz09 New Smart Watch",
+        "price": 71000,
+        "description": "MIRZA DZ09 Smart Watch & HM1000 Bluetooth Headset for HTC ONE PRIME Bluetooth Smart Watch Wrist Watch Phone with Camera & SIM Card "
+    },
+    {
+        "id": 12,
+        "image": "dw3.png",
+        "name": "Raysx 4G Android Smart Watch",
+        "price": 78000,
+        "description": " Raysx A1 Android 4G calling mobile watch Smartwatch (Black Strap,) Brand: CYXUS Color: Black Compatible OS: Android & iOS Dial Shape"
+    }
+]
